@@ -4,14 +4,13 @@ This README is the entry point for OctoAcme's project management process documen
 
 ## OctoAcme project management approach
 
-OctoAcme uses a customer-first, iterative lifecycle with clear ownership between Product, Project, and delivery teams. Work moves through a lightweight but structured sequence:
+OctoAcme uses a lightweight, iterative project management approach designed to keep teams aligned from idea through delivery. Work begins with project initiation, where teams clarify the business need, define measurable outcomes, identify stakeholders, and decide whether an effort should move into planning. From there, planning turns the initiative into an actionable backlog with acceptance criteria, scope estimates, dependencies, milestones, and a documented definition of done. This creates a structured but flexible foundation that supports incremental delivery rather than large, high-risk launches.
 
-1. **Initiation** to validate the problem, goals, and stakeholders.
-2. **Planning** to define scope, backlog, milestones, quality expectations, and dependencies.
-3. **Execution & Tracking** to deliver in increments with regular reviews and status visibility.
-4. **Risk & Communication Management** to proactively manage blockers and stakeholder alignment.
-5. **Release & Deployment** to ship safely with verification and rollback readiness.
-6. **Retrospective & Continuous Improvement** to capture learnings and improve future delivery.
+The process depends on clearly defined roles and shared ownership across the team. Project Managers coordinate timelines, risks, communications, and delivery activities, while Product Managers define outcomes, prioritize work, and measure success against customer and business value. Developers are responsible for implementation, testing, and surfacing technical risks, and QA or testing contributors validate that work meets acceptance criteria and quality expectations. Stakeholders support the process by providing input, alignment, and approvals at key points, helping ensure that priorities remain connected to broader business goals.
+
+Communication and visibility are built into every phase of the workflow. OctoAcme emphasizes regular team rhythms such as standups, weekly syncs, sprint reviews, demos, and stakeholder updates to keep progress, blockers, and dependencies visible. Risks are managed through a simple risk register and reviewed continuously, with defined escalation paths from team-level triage through project and product leadership up to sponsors when business impact increases. The documentation also encourages teams to maintain a single source of truth for status, decisions, and release information so that both delivery teams and stakeholders can quickly find current information.
+
+Quality assurance is treated as an ongoing delivery practice rather than a final checkpoint. The execution and release guidance calls for unit tests on new logic, integration testing where needed, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance when appropriate. Pull requests are expected to stay reasonably small, include links to issues and acceptance criteria, and pass automated checks before review and merge. After releases, teams are expected to reflect through retrospectives, capture action items, and feed improvements back into the backlog or documentation, reinforcing a culture of continuous improvement and repeatable execution.
 
 ## When and how to use these docs
 
